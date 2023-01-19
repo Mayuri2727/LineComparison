@@ -11,7 +11,7 @@ public class LineCompare {
         int y12 = 7;
         int x22 = 2;
         int y22 = 7;
-        float line1 = (float) Math.sqrt((x1 - x2) ^2 + (y2 - y1) ^2);
+        float line1 = (float) Math.sqrt((x1 - x2) ^2 + (y2 - y1) ^2);  //written formula for calculating line length
         float line2 = (float) Math.sqrt((x12 - x22) ^2 + (y22 - y12) ^2);
     }
 }
